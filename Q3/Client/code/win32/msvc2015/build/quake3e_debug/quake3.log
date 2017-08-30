@@ -1,0 +1,282 @@
+﻿  cl_avi.c
+  cl_cgame.c
+  cl_cin.c
+  cl_console.c
+  cl_curl.c
+  cl_input.c
+  cl_keys.c
+  cl_main.c
+  cl_net_chan.c
+  cl_parse.c
+  cl_scrn.c
+  cl_ui.c
+  snd_adpcm.c
+  snd_codec.c
+  snd_codec_ogg.c
+  snd_codec_wav.c
+  snd_dma.c
+  snd_main.c
+  snd_mem.c
+  snd_mix.c
+  Generating Code...
+  Compiling...
+  snd_wavelet.c
+  cmd.c
+  cm_load.c
+  cm_patch.c
+  cm_polylib.c
+  cm_test.c
+  cm_trace.c
+  common.c
+  cvar.c
+  files.c
+  history.c
+  huffman.c
+  huffman_static.c
+  keys.c
+  md4.c
+  md5.c
+  msg.c
+  net_chan.c
+  net_ip.c
+c:\quake3e-master\code\qcommon\net_ip.c(56): warning C4005: 'EAGAIN': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\errno.h(44): note: see previous definition of 'EAGAIN'
+c:\quake3e-master\code\qcommon\net_ip.c(57): warning C4005: 'EADDRNOTAVAIL': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\errno.h(85): note: see previous definition of 'EADDRNOTAVAIL'
+c:\quake3e-master\code\qcommon\net_ip.c(58): warning C4005: 'EAFNOSUPPORT': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\errno.h(86): note: see previous definition of 'EAFNOSUPPORT'
+c:\quake3e-master\code\qcommon\net_ip.c(59): warning C4005: 'ECONNRESET': macro redefinition
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\ucrt\errno.h(92): note: see previous definition of 'ECONNRESET'
+c:\quake3e-master\code\qcommon\net_ip.c(1098): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\um\winsock2.h(2218): note: see declaration of 'gethostbyname'
+  puff.c
+  Generating Code...
+  Compiling...
+  q_math.c
+  q_shared.c
+  unzip.c
+  vm.c
+  vm_interpreted.c
+  vm_x86.c
+  sv_bot.c
+  sv_ccmds.c
+  sv_client.c
+  sv_game.c
+  sv_init.c
+  sv_main.c
+  sv_net_chan.c
+  sv_snapshot.c
+  sv_world.c
+  win_input.c
+  win_main.c
+c:\quake3e-master\code\win32\win_main.c(691): warning C4996: 'GetVersionExA': was declared deprecated
+  c:\program files (x86)\windows kits\10\include\10.0.15063.0\um\sysinfoapi.h(436): note: see declaration of 'GetVersionExA'
+  win_minimize.c
+  win_shared.c
+  win_snd.c
+  Generating Code...
+  Compiling...
+  win_syscon.c
+  win_wndproc.c
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1198,5): warning MSB8012: TargetPath(C:\Quake3e-master\code\win32\msvc2015\.\output\quake3.exe) does not match the Linker's OutputFile property value (C:\Quake3e-master\code\win32\msvc2015\output\quake3e-debug.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1200,5): warning MSB8012: TargetName(quake3) does not match the Linker's OutputFile property value (quake3e-debug). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+cl_avi.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+libcurl_a.lib(formdata.obj) : warning LNK4049: locally defined symbol _strrchr imported
+libcurl_a.lib(strerror.obj) : warning LNK4217: locally defined symbol _strrchr imported in function _Curl_sspi_strerror
+libcurl_a.lib(cookie.obj) : warning LNK4049: locally defined symbol _strrchr imported
+libcurl_a.lib(transfer.obj) : warning LNK4049: locally defined symbol _strrchr imported
+libcurl_a.lib(ftp.obj) : warning LNK4049: locally defined symbol _strrchr imported
+libcurl_a.lib(telnet.obj) : warning LNK4049: locally defined symbol _strncpy imported
+libcurl_a.lib(strerror.obj) : warning LNK4217: locally defined symbol _strncpy imported in function _Curl_sspi_strerror
+libcurl_a.lib(curl_sspi.obj) : warning LNK4049: locally defined symbol _strncpy imported
+libcurl_a.lib(url.obj) : warning LNK4049: locally defined symbol _strncpy imported
+libcurl_a.lib(ftp.obj) : warning LNK4049: locally defined symbol _strncpy imported
+libcurl_a.lib(easy.obj) : warning LNK4217: locally defined symbol _strdup imported in function _curl_easy_init
+OLDNAMES.lib(strdup.obi) : warning LNK4049: locally defined symbol _strdup imported
+libcurl_a.lib(easy.obj) : warning LNK4217: locally defined symbol _calloc imported in function _curl_easy_init
+libcurl_a.lib(easy.obj) : warning LNK4217: locally defined symbol _free imported in function _curl_easy_init
+libcurl_a.lib(easy.obj) : warning LNK4217: locally defined symbol _malloc imported in function _curl_easy_init
+libcurl_a.lib(easy.obj) : warning LNK4217: locally defined symbol _realloc imported in function _curl_easy_init
+libcurl_a.lib(formdata.obj) : warning LNK4217: locally defined symbol _fclose imported in function _FormAdd
+libcurl_a.lib(vtls.obj) : warning LNK4217: locally defined symbol _fclose imported in function _Curl_pin_peer_pubkey
+libcurl_a.lib(cookie.obj) : warning LNK4217: locally defined symbol _fclose imported in function _Curl_cookie_add
+libcurl_a.lib(http.obj) : warning LNK4049: locally defined symbol _fclose imported
+libcurl_a.lib(netrc.obj) : warning LNK4049: locally defined symbol _fclose imported
+libcurl_a.lib(vtls.obj) : warning LNK4217: locally defined symbol _fopen imported in function _Curl_pin_peer_pubkey
+libcurl_a.lib(cookie.obj) : warning LNK4217: locally defined symbol _fopen imported in function _Curl_cookie_init
+libcurl_a.lib(netrc.obj) : warning LNK4049: locally defined symbol _fopen imported
+libcurl_a.lib(formdata.obj) : warning LNK4217: locally defined symbol _fopen imported in function _FormAdd
+libcurl_a.lib(vtls.obj) : warning LNK4217: locally defined symbol _fread imported in function _Curl_pin_peer_pubkey
+libcurl_a.lib(url.obj) : warning LNK4049: locally defined symbol _fread imported
+libcurl_a.lib(transfer.obj) : warning LNK4217: locally defined symbol _fread imported in function _Curl_follow
+libcurl_a.lib(formdata.obj) : warning LNK4217: locally defined symbol _fread imported in function _FormAdd
+libcurl_a.lib(vtls.obj) : warning LNK4217: locally defined symbol _fseek imported in function _Curl_pin_peer_pubkey
+libcurl_a.lib(transfer.obj) : warning LNK4217: locally defined symbol _fseek imported in function _Curl_fillreadbuffer
+libcurl_a.lib(vtls.obj) : warning LNK4217: locally defined symbol _ftell imported in function _Curl_pin_peer_pubkey
+libcurl_a.lib(ftp.obj) : warning LNK4049: locally defined symbol _strstr imported
+libcurl_a.lib(tftp.obj) : warning LNK4217: locally defined symbol _strstr imported in function _tftp_send_first
+libcurl_a.lib(ftplistparser.obj) : warning LNK4049: locally defined symbol _strstr imported
+libcurl_a.lib(vtls.obj) : warning LNK4217: locally defined symbol _strstr imported in function _pubkey_pem_to_der
+libcurl_a.lib(url.obj) : warning LNK4049: locally defined symbol _strstr imported
+libcurl_a.lib(transfer.obj) : warning LNK4217: locally defined symbol _strstr imported in function ___local_stdio_scanf_options
+libcurl_a.lib(http.obj) : warning LNK4049: locally defined symbol _strstr imported
+libcurl_a.lib(dotdot.obj) : warning LNK4049: locally defined symbol _strncmp imported
+libcurl_a.lib(curl_sasl.obj) : warning LNK4049: locally defined symbol _strncmp imported
+libcurl_a.lib(ftplistparser.obj) : warning LNK4049: locally defined symbol _strncmp imported
+libcurl_a.lib(connect.obj) : warning LNK4217: locally defined symbol _strncmp imported in function _Curl_is_connected
+libcurl_a.lib(http.obj) : warning LNK4049: locally defined symbol _strncmp imported
+libcurl_a.lib(rtsp.obj) : warning LNK4049: locally defined symbol _strncmp imported
+libcurl_a.lib(ftp.obj) : warning LNK4049: locally defined symbol _strncmp imported
+libcurl_a.lib(vtls.obj) : warning LNK4217: locally defined symbol _strncmp imported in function _Curl_pin_peer_pubkey
+libcurl_a.lib(mprintf.obj) : warning LNK4217: locally defined symbol _strncmp imported in function _dprintf_Pass1
+libcurl_a.lib(cookie.obj) : warning LNK4217: locally defined symbol _strncmp imported in function _Curl_cookie_add
+libcurl_a.lib(url.obj) : warning LNK4049: locally defined symbol _strncmp imported
+libcurl_a.lib(mprintf.obj) : warning LNK4217: locally defined symbol ___acrt_iob_func imported in function _curl_mprintf
+libcurl_a.lib(cookie.obj) : warning LNK4049: locally defined symbol ___acrt_iob_func imported
+libcurl_a.lib(url.obj) : warning LNK4049: locally defined symbol ___acrt_iob_func imported
+libcurl_a.lib(formdata.obj) : warning LNK4049: locally defined symbol ___acrt_iob_func imported
+libcurl_a.lib(mprintf.obj) : warning LNK4217: locally defined symbol _fputc imported in function _curl_mfprintf
+libcurl_a.lib(mprintf.obj) : warning LNK4217: locally defined symbol ___stdio_common_vsprintf imported in function __vsnprintf_l
+libcurl_a.lib(curl_fnmatch.obj) : warning LNK4049: locally defined symbol _isdigit imported
+libcurl_a.lib(smtp.obj) : warning LNK4049: locally defined symbol _isdigit imported
+libcurl_a.lib(ftp.obj) : warning LNK4049: locally defined symbol _isdigit imported
+libcurl_a.lib(curl_sasl.obj) : warning LNK4217: locally defined symbol _isdigit imported in function _Curl_sasl_continue
+libcurl_a.lib(ftplistparser.obj) : warning LNK4049: locally defined symbol _isdigit imported
+libcurl_a.lib(mprintf.obj) : warning LNK4217: locally defined symbol _isdigit imported in function _dprintf_DollarString
+libcurl_a.lib(http.obj) : warning LNK4049: locally defined symbol _isdigit imported
+libcurl_a.lib(parsedate.obj) : warning LNK4049: locally defined symbol _isdigit imported
+libcurl_a.lib(imap.obj) : warning LNK4049: locally defined symbol _isdigit imported
+libcurl_a.lib(smtp.obj) : warning LNK4049: locally defined symbol _strtol imported
+libcurl_a.lib(ftp.obj) : warning LNK4049: locally defined symbol _strtol imported
+libcurl_a.lib(tftp.obj) : warning LNK4049: locally defined symbol _strtol imported
+libcurl_a.lib(ftplistparser.obj) : warning LNK4217: locally defined symbol _strtol imported in function _ftp_pl_insert_finfo
+libcurl_a.lib(mprintf.obj) : warning LNK4217: locally defined symbol _strtol imported in function _dprintf_Pass1
+libcurl_a.lib(url.obj) : warning LNK4049: locally defined symbol _strtol imported
+libcurl_a.lib(pipeline.obj) : warning LNK4049: locally defined symbol _strtol imported
+libcurl_a.lib(parsedate.obj) : warning LNK4049: locally defined symbol _strtol imported
+libcurl_a.lib(tftp.obj) : warning LNK4049: locally defined symbol __time64 imported
+libcurl_a.lib(cookie.obj) : warning LNK4217: locally defined symbol __time64 imported in function _Curl_cookie_add
+libcurl_a.lib(hostip.obj) : warning LNK4049: locally defined symbol __time64 imported
+libcurl_a.lib(http.obj) : warning LNK4049: locally defined symbol __time64 imported
+libcurl_a.lib(ftp.obj) : warning LNK4049: locally defined symbol __time64 imported
+libcurl_a.lib(imap.obj) : warning LNK4049: locally defined symbol _memmove imported
+libcurl_a.lib(pingpong.obj) : warning LNK4049: locally defined symbol _memmove imported
+libcurl_a.lib(cookie.obj) : warning LNK4217: locally defined symbol _memmove imported in function _sanitize_cookie_path
+libcurl_a.lib(url.obj) : warning LNK4049: locally defined symbol _memmove imported
+libcurl_a.lib(http.obj) : warning LNK4049: locally defined symbol _memmove imported
+libcurl_a.lib(schannel.obj) : warning LNK4217: locally defined symbol _memmove imported in function _schannel_connect_step1
+libcurl_a.lib(socks_sspi.obj) : warning LNK4217: locally defined symbol _strchr imported in function _Curl_SOCKS5_gssapi_negotiate
+libcurl_a.lib(dotdot.obj) : warning LNK4049: locally defined symbol _strchr imported
+libcurl_a.lib(formdata.obj) : warning LNK4217: locally defined symbol _strchr imported in function _Curl_getformdata
+libcurl_a.lib(curl_gethostname.obj) : warning LNK4049: locally defined symbol _strchr imported
+libcurl_a.lib(ftplistparser.obj) : warning LNK4049: locally defined symbol _strchr imported
+libcurl_a.lib(ldap.obj) : warning LNK4217: locally defined symbol _strchr imported in function _str2scope
+libcurl_a.lib(file.obj) : warning LNK4049: locally defined symbol _strchr imported
+libcurl_a.lib(http_digest.obj) : warning LNK4049: locally defined symbol _strchr imported
+libcurl_a.lib(http_proxy.obj) : warning LNK4049: locally defined symbol _strchr imported
+libcurl_a.lib(inet_pton.obj) : warning LNK4049: locally defined symbol _strchr imported
+libcurl_a.lib(smb.obj) : warning LNK4217: locally defined symbol _strchr imported in function _smb_connect
+libcurl_a.lib(ftp.obj) : warning LNK4049: locally defined symbol _strchr imported
+libcurl_a.lib(dict.obj) : warning LNK4049: locally defined symbol _strchr imported
+libcurl_a.lib(transfer.obj) : warning LNK4049: locally defined symbol _strchr imported
+libcurl_a.lib(http.obj) : warning LNK4049: locally defined symbol _strchr imported
+libcurl_a.lib(pipeline.obj) : warning LNK4049: locally defined symbol _strchr imported
+libcurl_a.lib(strtok.obj) : warning LNK4049: locally defined symbol _strchr imported
+libcurl_a.lib(cookie.obj) : warning LNK4217: locally defined symbol _strchr imported in function _Curl_cookie_add
+libcurl_a.lib(curl_sspi.obj) : warning LNK4049: locally defined symbol _strchr imported
+libcurl_a.lib(url.obj) : warning LNK4049: locally defined symbol _strchr imported
+libcurl_a.lib(connect.obj) : warning LNK4217: locally defined symbol _strchr imported in function _Curl_connecthost
+libcurl_a.lib(cookie.obj) : warning LNK4217: locally defined symbol _qsort imported in function _Curl_cookie_getlist
+libcurl_a.lib(file.obj) : warning LNK4049: locally defined symbol _strtoll imported
+libcurl_a.lib(http_proxy.obj) : warning LNK4049: locally defined symbol _strtoll imported
+libcurl_a.lib(http_chunks.obj) : warning LNK4049: locally defined symbol _strtoll imported
+libcurl_a.lib(ftplistparser.obj) : warning LNK4049: locally defined symbol _strtoll imported
+libcurl_a.lib(cookie.obj) : warning LNK4217: locally defined symbol _strtoll imported in function _Curl_cookie_add
+libcurl_a.lib(http.obj) : warning LNK4049: locally defined symbol _strtoll imported
+libcurl_a.lib(imap.obj) : warning LNK4049: locally defined symbol _strtoll imported
+libcurl_a.lib(ftp.obj) : warning LNK4049: locally defined symbol _strtoll imported
+libcurl_a.lib(asyn-thread.obj) : warning LNK4217: locally defined symbol __errno imported in function _init_resolve_thread
+libcurl_a.lib(http_chunks.obj) : warning LNK4049: locally defined symbol __errno imported
+libcurl_a.lib(ftplistparser.obj) : warning LNK4217: locally defined symbol __errno imported in function _Curl_ftp_parselist
+libcurl_a.lib(hostip.obj) : warning LNK4217: locally defined symbol _tolower imported in function _create_hostcache_id
+libcurl_a.lib(url.obj) : warning LNK4049: locally defined symbol _tolower imported
+libcurl_a.lib(url.obj) : warning LNK4217: locally defined symbol _fwrite imported in function _Curl_init_userdefined
+libcurl_a.lib(sendf.obj) : warning LNK4049: locally defined symbol _fwrite imported
+libcurl_a.lib(url.obj) : warning LNK4217: locally defined symbol _isalpha imported in function _parse_connect_to_host_port
+libcurl_a.lib(parsedate.obj) : warning LNK4049: locally defined symbol _isalpha imported
+libcurl_a.lib(curl_fnmatch.obj) : warning LNK4049: locally defined symbol _isalpha imported
+libcurl_a.lib(url.obj) : warning LNK4217: locally defined symbol _isxdigit imported in function _parse_connect_to_host_port
+libcurl_a.lib(escape.obj) : warning LNK4049: locally defined symbol _isxdigit imported
+libcurl_a.lib(curl_fnmatch.obj) : warning LNK4049: locally defined symbol _isxdigit imported
+libcurl_a.lib(url.obj) : warning LNK4217: locally defined symbol _strpbrk imported in function _parseurlandfillconn
+libcurl_a.lib(system_win32.obj) : warning LNK4049: locally defined symbol _strpbrk imported
+libcurl_a.lib(vauth.obj) : warning LNK4049: locally defined symbol _strpbrk imported
+libcurl_a.lib(url.obj) : warning LNK4217: locally defined symbol _strtoul imported in function _parseurlandfillconn
+libcurl_a.lib(ftp.obj) : warning LNK4049: locally defined symbol _strtoul imported
+libcurl_a.lib(escape.obj) : warning LNK4049: locally defined symbol _strtoul imported
+libcurl_a.lib(connect.obj) : warning LNK4217: locally defined symbol _atoi imported in function _bindlocal
+libcurl_a.lib(telnet.obj) : warning LNK4049: locally defined symbol _atoi imported
+libcurl_a.lib(ftplistparser.obj) : warning LNK4049: locally defined symbol _isspace imported
+libcurl_a.lib(curl_fnmatch.obj) : warning LNK4049: locally defined symbol _isspace imported
+libcurl_a.lib(http_digest.obj) : warning LNK4049: locally defined symbol _isspace imported
+libcurl_a.lib(http_ntlm.obj) : warning LNK4049: locally defined symbol _isspace imported
+libcurl_a.lib(digest_sspi.obj) : warning LNK4049: locally defined symbol _isspace imported
+libcurl_a.lib(http_negotiate.obj) : warning LNK4049: locally defined symbol _isspace imported
+libcurl_a.lib(http.obj) : warning LNK4217: locally defined symbol _isspace imported in function _Curl_add_custom_headers
+libcurl_a.lib(rtsp.obj) : warning LNK4049: locally defined symbol _isspace imported
+libcurl_a.lib(ftp.obj) : warning LNK4049: locally defined symbol _isspace imported
+libcurl_a.lib(file.obj) : warning LNK4049: locally defined symbol _isspace imported
+libcurl_a.lib(progress.obj) : warning LNK4217: locally defined symbol _fflush imported in function _Curl_pgrsUpdate
+libcurl_a.lib(parsedate.obj) : warning LNK4217: locally defined symbol __gmtime64 imported in function _Curl_gmtime
+libcurl_a.lib(parsedate.obj) : warning LNK4217: locally defined symbol _isalnum imported in function _parsedate
+libcurl_a.lib(ftplistparser.obj) : warning LNK4049: locally defined symbol _isalnum imported
+libcurl_a.lib(curl_fnmatch.obj) : warning LNK4049: locally defined symbol _isalnum imported
+libcurl_a.lib(file.obj) : warning LNK4217: locally defined symbol __lseeki64 imported in function _file_do
+libcurl_a.lib(getenv.obj) : warning LNK4217: locally defined symbol _getenv imported in function _GetEnv
+libcurl_a.lib(x509asn1.obj) : warning LNK4217: locally defined symbol _isupper imported in function _encodeDN
+libcurl_a.lib(curl_sasl.obj) : warning LNK4049: locally defined symbol _isupper imported
+libcurl_a.lib(curl_fnmatch.obj) : warning LNK4049: locally defined symbol _isupper imported
+libcurl_a.lib(curl_fnmatch.obj) : warning LNK4217: locally defined symbol _islower imported in function _loop
+libcurl_a.lib(curl_fnmatch.obj) : warning LNK4217: locally defined symbol _isprint imported in function _loop
+libcurl_a.lib(curl_fnmatch.obj) : warning LNK4217: locally defined symbol _isgraph imported in function _loop
+OLDNAMES.lib(strdup.obi) : warning LNK4049: locally defined symbol __strdup imported
+OLDNAMES.lib(read.obi) : warning LNK4049: locally defined symbol __read imported
+OLDNAMES.lib(write.obi) : warning LNK4049: locally defined symbol __write imported
+OLDNAMES.lib(close.obi) : warning LNK4049: locally defined symbol __close imported
+OLDNAMES.lib(open.obi) : warning LNK4049: locally defined symbol __open imported
+libcurl_a.lib(strerror.obj) : error LNK2019: unresolved external symbol __imp__strerror referenced in function _Curl_strerror
+libcurl_a.lib(strerror.obj) : error LNK2019: unresolved external symbol __imp____sys_nerr referenced in function _Curl_strerror
+libcurl_a.lib(cookie.obj) : error LNK2019: unresolved external symbol __imp__fgets referenced in function _get_line
+libcurl_a.lib(netrc.obj) : error LNK2001: unresolved external symbol __imp__fgets
+libcurl_a.lib(cookie.obj) : error LNK2019: unresolved external symbol __imp__fputs referenced in function _cookie_output
+libcurl_a.lib(ftp.obj) : error LNK2001: unresolved external symbol __imp____stdio_common_vsscanf
+libcurl_a.lib(telnet.obj) : error LNK2001: unresolved external symbol __imp____stdio_common_vsscanf
+libcurl_a.lib(http_proxy.obj) : error LNK2001: unresolved external symbol __imp____stdio_common_vsscanf
+libcurl_a.lib(http.obj) : error LNK2001: unresolved external symbol __imp____stdio_common_vsscanf
+libcurl_a.lib(parsedate.obj) : error LNK2001: unresolved external symbol __imp____stdio_common_vsscanf
+libcurl_a.lib(rtsp.obj) : error LNK2001: unresolved external symbol __imp____stdio_common_vsscanf
+libcurl_a.lib(imap.obj) : error LNK2001: unresolved external symbol __imp____stdio_common_vsscanf
+libcurl_a.lib(cookie.obj) : error LNK2001: unresolved external symbol __imp____stdio_common_vsscanf
+libcurl_a.lib(hostip.obj) : error LNK2001: unresolved external symbol __imp____stdio_common_vsscanf
+libcurl_a.lib(url.obj) : error LNK2001: unresolved external symbol __imp____stdio_common_vsscanf
+libcurl_a.lib(transfer.obj) : error LNK2001: unresolved external symbol __imp____stdio_common_vsscanf
+libcurl_a.lib(http.obj) : error LNK2019: unresolved external symbol __imp__memchr referenced in function _Curl_http_readwrite_headers
+libcurl_a.lib(tftp.obj) : error LNK2001: unresolved external symbol __imp__memchr
+libcurl_a.lib(warnless.obj) : error LNK2019: unresolved external symbol __imp__read referenced in function _curlx_read
+OLDNAMES.lib(read.obi) : error LNK2001: unresolved external symbol __imp__read
+libcurl_a.lib(warnless.obj) : error LNK2019: unresolved external symbol __imp__write referenced in function _curlx_write
+OLDNAMES.lib(write.obi) : error LNK2001: unresolved external symbol __imp__write
+libcurl_a.lib(curl_threads.obj) : error LNK2019: unresolved external symbol __imp___beginthreadex referenced in function _Curl_thread_create
+libcurl_a.lib(smb.obj) : error LNK2019: unresolved external symbol __imp___getpid referenced in function _smb_format_message
+libcurl_a.lib(file.obj) : error LNK2019: unresolved external symbol __imp__close referenced in function _file_done
+OLDNAMES.lib(close.obi) : error LNK2001: unresolved external symbol __imp__close
+libcurl_a.lib(file.obj) : error LNK2019: unresolved external symbol __imp__open referenced in function _file_connect
+OLDNAMES.lib(open.obi) : error LNK2001: unresolved external symbol __imp__open
+libcurl_a.lib(file.obj) : error LNK2019: unresolved external symbol __imp___fstat64 referenced in function _file_do
+libcurl_a.lib(formdata.obj) : error LNK2019: unresolved external symbol __imp__feof referenced in function _Curl_getformdata
+libcurl_a.lib(formdata.obj) : error LNK2019: unresolved external symbol __imp__ferror referenced in function _Curl_getformdata
+libcurl_a.lib(formdata.obj) : error LNK2019: unresolved external symbol __imp___stat64 referenced in function _AddFormData
+MSVCRT.lib(_chandler4gs_.obj) : error LNK2019: unresolved external symbol __except_handler4_common referenced in function __except_handler4
+.\output\quake3e-debug.exe : fatal error LNK1120: 17 unresolved externals

@@ -1,0 +1,56 @@
+﻿  tr_animation.c
+  tr_arb.c
+  tr_backend.c
+  tr_bloom.c
+  tr_bsp.c
+  tr_cmds.c
+  tr_curve.c
+  tr_flares.c
+  tr_font.c
+  tr_image.c
+  tr_image_bmp.c
+..\..\renderer\tr_image_bmp.c(135): warning C4389: '!=': signed/unsigned mismatch
+..\..\renderer\tr_image_bmp.c(167): warning C4389: '!=': signed/unsigned mismatch
+  tr_image_jpg.c
+..\..\renderer\tr_image_jpg.c(52): warning C4324: 'q_jpeg_error_mgr_s': structure was padded due to alignment specifier
+  tr_image_pcx.c
+..\..\renderer\tr_image_pcx.c(48): warning C4200: nonstandard extension used: zero-sized array in struct/union
+  tr_image_png.c
+  tr_image_tga.c
+..\..\renderer\tr_image_tga.c(229): warning C4389: '==': signed/unsigned mismatch
+..\..\renderer\tr_image_tga.c(269): warning C4389: '==': signed/unsigned mismatch
+  tr_init.c
+  tr_light.c
+  tr_main.c
+  tr_marks.c
+  tr_mesh.c
+  Generating Code...
+c:\users\vahid\desktop\client\code\renderer\tr_image_tga.c(226): warning C4701: potentially uninitialized local variable 'blue' used
+c:\users\vahid\desktop\client\code\renderer\tr_image_tga.c(225): warning C4701: potentially uninitialized local variable 'green' used
+c:\users\vahid\desktop\client\code\renderer\tr_image_tga.c(224): warning C4701: potentially uninitialized local variable 'red' used
+c:\users\vahid\desktop\client\code\renderer\tr_image_tga.c(227): warning C4701: potentially uninitialized local variable 'alphabyte' used
+  Compiling...
+  tr_model.c
+  tr_model_iqm.c
+  tr_noise.c
+  tr_scene.c
+  tr_shade.c
+  tr_shader.c
+..\..\renderer\tr_shader.c(2914): warning C4459: declaration of 'shader' hides global declaration
+  ..\..\renderer\tr_shader.c(31): note: see declaration of 'shader'
+  tr_shade_calc.c
+  tr_shadows.c
+..\..\renderer\tr_shadows.c(49): warning C4459: declaration of 'facing' hides global declaration
+  ..\..\renderer\tr_shadows.c(46): note: see declaration of 'facing'
+  tr_sky.c
+  tr_surface.c
+  tr_world.c
+  win_gamma.c
+..\win_gamma.c(164): warning C4996: 'GetVersionExA': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\sysinfoapi.h(436): note: see declaration of 'GetVersionExA'
+  win_glimp.c
+..\win_glimp.c(1430): warning C4996: 'GetVersionExA': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\sysinfoapi.h(436): note: see declaration of 'GetVersionExA'
+  win_qgl.c
+  Generating Code...
+  renderer.vcxproj -> C:\Users\Vahid\Desktop\Client\code\win32\msvc2015\.\build\renderer_release_x64\renderer.lib

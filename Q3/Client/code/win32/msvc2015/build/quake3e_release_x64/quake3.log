@@ -1,0 +1,102 @@
+﻿  Assembling...
+  Microsoft (R) Macro Assembler (x64) Version 14.11.25506.0
+  Copyright (C) Microsoft Corporation.  All rights reserved.
+  
+   Assembling: C:\Users\Vahid\Desktop\Client\code\asm\snd_mix_x64.asm
+  cl_avi.c
+  cl_cgame.c
+  cl_cin.c
+  cl_console.c
+  cl_curl.c
+  cl_input.c
+  cl_keys.c
+  cl_main.c
+  cl_net_chan.c
+  cl_parse.c
+  cl_scrn.c
+  cl_ui.c
+  snd_adpcm.c
+  snd_codec.c
+  snd_codec_ogg.c
+..\..\client\snd_codec_ogg.c(476): warning C4206: nonstandard extension used: translation unit is empty
+  snd_codec_wav.c
+  snd_dma.c
+  snd_main.c
+..\..\client\snd_main.c(41): warning C4459: declaration of 'si' hides global declaration
+  ..\..\client\snd_main.c(33): note: see declaration of 'si'
+  snd_mem.c
+  snd_mix.c
+  Generating Code...
+  Compiling...
+  snd_wavelet.c
+  cmd.c
+  cm_load.c
+  cm_patch.c
+..\..\qcommon\cm_patch.c(1264): warning C4459: declaration of 'planes' hides global declaration
+  ..\..\qcommon\cm_patch.c(418): note: see declaration of 'planes'
+..\..\qcommon\cm_patch.c(1409): warning C4459: declaration of 'planes' hides global declaration
+  ..\..\qcommon\cm_patch.c(418): note: see declaration of 'planes'
+..\..\qcommon\cm_patch.c(1550): warning C4459: declaration of 'planes' hides global declaration
+  ..\..\qcommon\cm_patch.c(418): note: see declaration of 'planes'
+  cm_polylib.c
+  cm_test.c
+  cm_trace.c
+  common.c
+  cvar.c
+  files.c
+  history.c
+  huffman.c
+  huffman_static.c
+  keys.c
+  md4.c
+  md5.c
+  msg.c
+  net_chan.c
+  net_ip.c
+..\..\qcommon\net_ip.c(56): warning C4005: 'EAGAIN': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\errno.h(44): note: see previous definition of 'EAGAIN'
+..\..\qcommon\net_ip.c(57): warning C4005: 'EADDRNOTAVAIL': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\errno.h(85): note: see previous definition of 'EADDRNOTAVAIL'
+..\..\qcommon\net_ip.c(58): warning C4005: 'EAFNOSUPPORT': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\errno.h(86): note: see previous definition of 'EAFNOSUPPORT'
+..\..\qcommon\net_ip.c(59): warning C4005: 'ECONNRESET': macro redefinition
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\errno.h(92): note: see previous definition of 'ECONNRESET'
+..\..\qcommon\net_ip.c(1098): warning C4996: 'gethostbyname': Use getaddrinfo() or GetAddrInfoW() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(2218): note: see declaration of 'gethostbyname'
+  puff.c
+..\..\qcommon\puff.c(102): warning C4324: 'state': structure was padded due to alignment specifier
+  Generating Code...
+  Compiling...
+  q_math.c
+  q_shared.c
+  unzip.c
+  vm.c
+  vm_interpreted.c
+  vm_x86.c
+..\..\qcommon\vm_x86.c(1501): warning C4459: declaration of 'ci' hides global declaration
+  ..\..\qcommon\vm_x86.c(180): note: see declaration of 'ci'
+  sv_bot.c
+  sv_ccmds.c
+  sv_client.c
+  sv_game.c
+  sv_init.c
+  sv_main.c
+  sv_net_chan.c
+  sv_snapshot.c
+  sv_world.c
+  win_input.c
+  win_main.c
+..\win_main.c(691): warning C4996: 'GetVersionExA': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\sysinfoapi.h(436): note: see declaration of 'GetVersionExA'
+  win_minimize.c
+  win_shared.c
+  win_snd.c
+  Generating Code...
+  Compiling...
+  win_syscon.c
+  win_wndproc.c
+  Generating Code...
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1198,5): warning MSB8012: TargetPath(C:\Users\Vahid\Desktop\Client\code\win32\msvc2015\.\output\quake3.exe) does not match the Linker's OutputFile property value (C:\Users\Vahid\Desktop\Client\code\win32\msvc2015\output\quake3e.x64.exe). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(1200,5): warning MSB8012: TargetName(quake3) does not match the Linker's OutputFile property value (quake3e.x64). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  quake3.vcxproj -> C:\Users\Vahid\Desktop\Client\code\win32\msvc2015\.\output\quake3.exe
